@@ -29,7 +29,7 @@
     "example": "examples"
   },
   "scripts": {
-    "pretest": "./node_modules/.bin/eslint ./lib ./test --fix",
+    "pretest": "./node_modules/.bin/eslint ./lib ./examples --fix",
     "test": "./node_modules/.bin/mocha ./lib"
   },
   "keywords": [

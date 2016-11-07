@@ -24,7 +24,7 @@ Export the environment variable `HTTPS_PROXY` as described [here](https://github
 To run the tests for this module, you will first need to install
 [nodeunit](http://github.com/caolan/nodeunit).  Then, simply run:
 
-    $ nodeunit test.js
+    $ npm test
 
 ## Example Using [Express](http://www.expressjs.com)
 
