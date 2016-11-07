@@ -10,7 +10,9 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.2",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "eslint": "^3.7.1",
+    "eslint-config-google": "^0.6.0"
   },
   "engines": {
     "node": ">= 0.6.0"
@@ -27,7 +29,8 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "node test.js"
+    "pretest": "./node_modules/.bin/eslint ./lib ./test --fix",
+    "test": "./node_modules/.bin/mocha ./lib"
   },
   "keywords": [
     "node",
