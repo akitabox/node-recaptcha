@@ -1,5 +1,7 @@
 # @akitabox/node-recaptcha
 
+[![Build Status](https://travis-ci.org/akitabox/node-recaptcha.svg?branch=master)](https://travis-ci.org/akitabox/node-recaptcha)
+
 @akitabox/node-recaptcha renders and verifies [reCAPTCHA](https://google.com/recaptcha) captchas with support for node servers behind proxies.
 
 **NOTE**: This release currently only supports reCAPTCHA [version 2](https://developers.google.com/recaptcha/intro).
